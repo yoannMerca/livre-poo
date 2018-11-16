@@ -27,7 +27,7 @@ public class TestBook {
 			System.out.println("veuillez entrer  le prix du livre "+(i+1));
 			int prix = sc.nextInt();
 			
-			Book livre = new Book(auteur, auteur, prix);
+			Book livre = new Book(titre, auteur, prix);
 			livres[i] = livre;
 		}
 		for(int i =0; i<nbrBook;i++) {
