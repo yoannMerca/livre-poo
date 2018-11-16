@@ -35,7 +35,7 @@ public class Book {
  * 
  */
 	public String toString() {
-		return " le prix du livre " + titre + " de l'auteur=" + auteur + " avec la reference=> "+ idBook+" est de "+ prix + " €";
+		return " le prix du livre " + titre + " de l'auteur=" + auteur + " avec la reference=> "+ idBook+" est de "+ " €";
 	}
 	
 	public int getIdBook() {
@@ -62,6 +62,9 @@ public class Book {
 	}
 	public void setPrix(int prix) {
 		this.prix = prix;
+	}
+	public int getCompteur() {
+		return nbrDinstance;
 	}
 	
 	

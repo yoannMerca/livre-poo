@@ -34,6 +34,8 @@ public class TestBook {
 			System.out.println(livres[i].toString());
 			
 		}
+		
+		System.out.println( "le nombre de livres est de: " + livres[0].getCompteur());
 		sc.close();
 
 	}
