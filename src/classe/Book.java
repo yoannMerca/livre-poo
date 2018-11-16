@@ -24,8 +24,8 @@ public class Book {
 	 * le calcul de l'id et automatique
 	 */
 	public Book( String titre, String auteur, int prix) {
-		this.nbrDinstance++;
-		this.idBook = this.nbrDinstance;
+		nbrDinstance++;
+		this.idBook = nbrDinstance;
 		this.titre = titre;
 		this.auteur = auteur;
 		this.prix = prix;
